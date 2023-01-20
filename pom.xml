@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.app</groupId>
-  <artifactId>rename-app</artifactId>
+  <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
   <version>1.2-SNAPSHOT</version>
-  <name>rename-app</name>
+  <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -74,18 +74,18 @@
 
 <repositories>
     <repository>
-      <id>mymaven-group</id>
+      <id>newmaven-group</id>
       <url>http://172.31.27.76:8081/repository/newmaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>mymaven-snapshots</id>
+      <id>newmaven-snapshots</id>
       <url>http://172.31.27.76:8081/repository/newmaven-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>mymaven-releases</id>
+      <id>newmaven-releases</id>
       <url>http://172.31.27.76:8081/repository/newmaven-releases/</url>
     </repository>
   </distributionManagement>
