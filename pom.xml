@@ -74,18 +74,18 @@
 
 <repositories>
     <repository>
-      <id>newmaven-group</id>
+      <id>mymaven-group</id>
       <url>http://172.31.27.76:8081/repository/newmaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>newmaven-snapshots</id>
+      <id>mymaven-snapshots</id>
       <url>http://172.31.27.76:8081/repository/newmaven-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>newmaven-releases</id>
+      <id>mymaven-releases</id>
       <url>http://172.31.27.76:8081/repository/newmaven-releases/</url>
     </repository>
   </distributionManagement>
