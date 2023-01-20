@@ -7,12 +7,12 @@
     <server>
       <id>mymaven-snapshots</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>nexuspassword</password>
     </server>
     <server>
       <id>mymaven-releases</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>nexuspassword</password>
     </server>
   </servers>
 
